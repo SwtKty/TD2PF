@@ -1,0 +1,5 @@
+Question 3 :
+"Function" Convertie un type vers un autre. Prend en argument un T et sort un R. typage : T -> R
+"Predicate" Teste l'argument selon un critère et renvoie vrai ou faux. Prend en argument T et renvoie un boolean. Typage : T -> boolean
+"Consumer" Consume une entrée et ne renvoie rien. Prend en argument T et ne retourne rien. T -> ()
+"Supplier" Génère une sortie. Ne prends pas d'entréee mais sort un T. typage : () -> T

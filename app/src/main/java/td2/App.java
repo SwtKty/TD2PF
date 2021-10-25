@@ -20,6 +20,7 @@ public class App {
         Predicate<Double> tropLourd = poids -> poids > 150.0;
         Predicate<Double> poidsCorrect = tropLourd.negate();
 
+
         System.out.println(tropPetite.test(50));
         System.out.println(tropPetite.test(150));
 

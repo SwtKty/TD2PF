@@ -10,9 +10,6 @@ public class App {
         return "Hello World!";
     }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
 
     public void question2 (){
         Predicate<Integer> tropPetite = taille -> taille <100;
@@ -22,7 +19,15 @@ public class App {
 
         Predicate<Double> tropLourd = poids -> poids > 150.0;
         Predicate<Double> poidsCorrect = tropLourd.negate();
-       
+
+        System.out.println(tropPetite.test(50));
+        System.out.println(tropPetite.test(150));
+
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(new App().getGreeting());
 
     }
 }

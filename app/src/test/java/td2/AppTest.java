@@ -11,6 +11,9 @@ import static org.junit.Assert.*;
 
 public class AppTest {
 
+    public static final void variables(){
+        final Paire<Integer,Double> p1 = new Paire(50,180.0);
+    }
 
     @Test public void appHasAGreeting() {
         App classUnderTest = new App();
